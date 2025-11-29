@@ -11,9 +11,10 @@
 
 
 /*  Set custom font in overall content......... */
+:root {
+    --font-customfont: 'customfont', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
 body {
     font-family: var(--font-customfont);
-}
-:root {
-    --font-customfont: 'customfont', sans-serif;
 }
